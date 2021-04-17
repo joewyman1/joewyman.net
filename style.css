@@ -43,10 +43,12 @@ li a:hover {
   background-color: #E642F5;
 }
 #beats {
-  max-width: 500px;
-  margin:0 auto;
+  margin: auto;
+    max-height: 500px;
+    max-width: 500px;
 }
 #contact {
-  max-width: 500px;
-  margin:0 auto;
+  margin: auto;
+    max-height: 500px;
+    max-width: 500px;
 }
