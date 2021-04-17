@@ -42,7 +42,11 @@ li a:hover {
 .active {
   background-color: #E642F5;
 }
-.content {
+#beats {
   max-width: 500px;
-  margin: auto;
+  margin:0 auto;
+}
+#contact {
+  max-width: 500px;
+  margin:0 auto;
 }
