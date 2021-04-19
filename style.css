@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: orange;        /* color of the tracking area */
+  background: purple;        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
