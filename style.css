@@ -1,3 +1,5 @@
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
 body {
 
 
@@ -106,13 +108,102 @@ body::-webkit-scrollbar-thumb {
   background: #ddd;
   color: black;
 }
+#links{
+	display:none;
+}
 
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+	
+}
 @media only screen and (max-width: 600px) {
   .navbar {
     display: none;
   }
+	#links{
+		display:block;
+	}
+	#beats {
+    float: none;
+  margin: auto;
+    max-height: 1000px;
+    max-width: 1000px;
+}
+#contact {
+  float: none;
+  margin: auto;
+    max-height: 1000px;
+    max-width: 10000px;
+}
+#logo {
+  float: none;
+  margin: auto;
+    max-height: 1000px;
+    max-width: 500px;
+}
+img {
+  width: 100%;
+  margin:auto;
+  float:none;
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: purple;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid purple;  /* creates padding around scroll thumb */
+}
+	body {
+
+
+background-image: url('bg 2.jpg');
+
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+iframe{
+  border:none;
+}
+
+p {
+  color:black;
+  font-family: verdana;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 }
