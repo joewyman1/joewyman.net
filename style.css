@@ -27,6 +27,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+	display: contents;
 }
 
 li {
@@ -108,7 +109,9 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid purple;  /* creates padding around scroll thumb */
 }
 /* The navigation bar */
-
+	#desktoponly{
+		display: block;
+	}
 #links{
 	display:none;
 }
@@ -120,13 +123,10 @@ body::-webkit-scrollbar-thumb {
 	
 }
 @media only screen and (max-width: 600px) {
-	ul{
-		display: none;
+	.desktoponly{
+		display:none;
 	}
- 
-	#links{
-		display:block;
-	}
+	
 	#beats {
     float: none;
   margin: auto;
@@ -190,10 +190,12 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+	
 }
 
 li {
   float: left;
+	
 }
 
 li a {
