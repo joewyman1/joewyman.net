@@ -7,7 +7,7 @@ html{
 }
 body{
 	background-color:#060042;
-	background-image:linear-gradient(#eb34eb 2%,black 108%);
+	background-image: url('../bg 2.jpg');
 	color:#fff;min-height:
 		100vh;text-align:center;
 	font-family:Roboto,sans-serif
