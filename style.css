@@ -82,8 +82,8 @@ li.dropdown {
 		float:none;
 		margin:auto;
 		max-height:500px;
-		max-width: 2000px;
-		
+		max-width: 1000px;
+		padding:10px;
 		display:inline-block;
 	}
 #contact {
