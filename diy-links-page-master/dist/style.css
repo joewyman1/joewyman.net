@@ -17,7 +17,7 @@ body{
 }
 a.featured:hover,a:hover
 {
-	background-color:#060042;color:#fff
+	background-color:rebeccapurple;color:#fff
 }
 a{
 	display:block;
@@ -33,7 +33,7 @@ a{
 a.featured
 {
 	position:relative
-		;background-color:#fff;color:#060042;
+		;background-color:#fff;color:rebeccapurple;
 	font-weight:700
 }
 a.featured:before{
@@ -57,7 +57,7 @@ a.featured:before{
 	flex:1;
 	padding:5px 10px;
 	margin-right:10px;
-	background-color:#060042;
+	background-color:rebeccapurple;
 	border:none
 }.channels a:last-child{
 	margin-right:0
