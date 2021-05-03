@@ -23,15 +23,18 @@ p {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-	display: contents;
+	display: flex;
+	max-width: 600px;
+	
 }
 
 li {
   float: left;
+	margin:auto;
 }
 
 li a, .dropbtn {
